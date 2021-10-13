@@ -1,0 +1,34 @@
+Options +FollowSymlinks
+RewriteEngine on
+
+RewriteCond %{HTTP_HOST} ^(bahengineeringconsultant\.com)$ [NC]
+RewriteRule ^ https://www.%1%{REQUEST_URI} [R=301,L]
+
+# Allow any files or directories that exist to be displayed directly
+RewriteCond %{REQUEST_FILENAME} !-f 
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule ^.+?/((img|css|js)/.+)$ /$1 [L,R=301,NC]
+
+Options -multiviews
+
+DirectoryIndex index.php
+RewriteRule ^logistics/?$ logistics.php [NC,L]
+RewriteRule ^equipments/?$ equipments.php [NC,L]
+RewriteRule ^contact/?$ contact.php [NC,L]
+RewriteRule ^about/?$ about.php [NC,L]
+RewriteRule ^contact/?$ contact.php [NC,L]
+RewriteRule ^pallets/?$ pallets.php [NC,L]
+RewriteRule ^powers/?$ powers.php [NC,L]
+RewriteRule ^racking/?$ racking.php [NC,L]
+RewriteRule ^repairs/?$ repairs.php [NC,L]
+RewriteRule ^shelves/?$ shelves.php [NC,L]
+RewriteRule ^spares/?$ spares.php [NC,L]
+RewriteRule ^consultancy/?$ consultancy.php [NC,L]
+RewriteRule ^error/?$ error.php [NC,L]
+
+
+ErrorDocument 404 /error.php
+
+RewriteCond %{HTTP_HOST} ^(www\.)?bahengineeringconsultant.com$ [NC]
+RewriteRule ^blog/$ http://blog.bahengineeringconsultant.com/ [R=301,L]
