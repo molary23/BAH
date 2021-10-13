@@ -20,7 +20,7 @@
 <link rel="stylesheet" href="//bahengineeringconsultant.com/fa/css/fontawesome-all.min.css"/>
 <link href="https://fonts.googleapis.com/css?family=Cuprum" rel="stylesheet">
 <script src="//code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB2ALo28FZ9SIxzihDGh6jhv9TtXg5Psq4&callback=initMap"
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=XXXXXXXXX=initMap"
   type="text/javascript"></script>
 <link rel="stylesheet" href="others/animate.css"/>
 <script src="//bahengineeringconsultant.com/bootstrap/js/bootstrap.min.js"></script>
