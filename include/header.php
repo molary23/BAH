@@ -19,7 +19,7 @@
 <link rel="shortcut icon" type="image/png" href="//bahengineeringconsultant.com/images/favico.png" id="favicon" />
 <link rel="stylesheet" href="//bahengineeringconsultant.com/fa/css/fontawesome-all.min.css"/>
 <link href="https://fonts.googleapis.com/css?family=Cuprum" rel="stylesheet">
-<script src="//code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script src="//code.jquery.com/jquery-3.3.1.min.js" crossorigin="anonymous"></script>
 <script async defer src="https://maps.googleapis.com/maps/api/js?key=XXXXXXXXX=initMap"
   type="text/javascript"></script>
 <link rel="stylesheet" href="others/animate.css"/>
